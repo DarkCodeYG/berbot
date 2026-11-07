@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>베르봇 개인정보처리방침</title>
+  <meta name="description" content="베르봇이 Google 계정 정보를 어떻게 다루는지에 대한 방침">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header>
+    <h1>개인정보처리방침</h1>
+    <p class="sub">베르봇 · 시행일 2026년 11월 7일</p>
+  </header>
+
+  <h2>1. 대상</h2>
+  <p>베르봇은 개발자 본인 전용 프로그램입니다. 개발자 본인의 Google 계정만 연결하며, 다른 사람의 정보는 수집하지 않습니다.</p>
+
+  <h2>2. 접근하는 정보</h2>
+  <ul>
+    <li><strong>Google 캘린더:</strong> 일정 조회, 추가, 수정, 삭제</li>
+    <li><strong>Gmail:</strong> 메일 검색과 읽기, 답장 초안 작성, 본인이 확인한 초안의 발송</li>
+    <li><strong>계정 이메일 주소:</strong> 어떤 계정이 연결됐는지 확인하는 용도</li>
+  </ul>
+
+  <h2>3. 사용 목적</h2>
+  <p>위 정보는 개발자 본인이 요청한 일(일정 확인 · 등록, 메일 확인 · 답장 준비)을 처리하는 데에만 씁니다.
+     광고, 판매, 분석, 프로필 작성에는 쓰지 않습니다.</p>
+
+  <h2>4. 저장</h2>
+  <ul>
+    <li>Google 인증 정보(갱신 토큰)는 개발자 본인 컴퓨터의 macOS 키체인에만 저장합니다.</li>
+    <li>메일과 일정 내용을 별도 서버나 데이터베이스에 보관하지 않습니다.</li>
+  </ul>
+
+  <h2>5. 외부 전송</h2>
+  <p>요청을 처리하는 과정에서, 처리에 필요한 일정 · 메일 내용이 AI 서비스(Anthropic의 Claude)로 전송될 수 있습니다.
+     그 밖의 제3자에게 제공하거나 판매하지 않습니다.</p>
+  <p>베르봇이 Google API로부터 받은 정보의 사용 및 다른 앱으로의 전송은
+     <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API 서비스 사용자 데이터 정책</a>
+     (제한적 사용 요구사항 포함)을 따릅니다.</p>
+
+  <h2>6. 연결 해제</h2>
+  <p><a href="https://myaccount.google.com/permissions">Google 계정 &gt; 보안 &gt; 서드 파티 연결</a>에서 베르봇 권한을 삭제하면
+     그 즉시 베르봇은 계정 정보에 접근할 수 없습니다.</p>
+
+  <h2>7. 변경</h2>
+  <p>이 방침이 바뀌면 이 페이지에 새 시행일과 함께 게시합니다.</p>
+
+  <div class="en">
+    <p><strong>Summary (English).</strong> Berbot is used only by its developer with their own Google account.
+       It accesses Google Calendar (read/write) and Gmail (read, create drafts, send drafts the developer approved)
+       solely to carry out the developer's own requests. OAuth refresh tokens are stored only in the macOS Keychain
+       on the developer's computer; calendar and mail content is not stored on any server. Content needed for a request
+       may be sent to an AI service (Anthropic Claude) for processing; it is never sold or shared with other parties.
+       Berbot's use and transfer of information received from Google APIs adheres to the
+       <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+       including the Limited Use requirements. Access can be revoked at any time at
+       <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+  </div>
+
+  <footer><a href="index.html">베르봇 소개</a> · 문의: <a href="https://github.com/DarkCodeYG">GitHub @DarkCodeYG</a></footer>
+</main>
+</body>
+</html>
